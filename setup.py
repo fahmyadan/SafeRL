@@ -20,7 +20,7 @@ def get_install_requires() -> str:
         "tqdm",
         "numpy>1.16.0",  # https://github.com/numpy/numpy/issues/12793
         "tensorboard>=2.5.0",
-        "torch>=1.4.0",
+        "torch==1.13.0" ,
         "numba>=0.51.0",
         "wandb~=0.14.0",
         "h5py>=2.10.0",  # to match tensorflow's minimal requirements
